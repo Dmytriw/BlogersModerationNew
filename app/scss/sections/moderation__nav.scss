@@ -1,0 +1,94 @@
+.moderation__nav__conent {
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+
+.moderation__nav__title {
+  font-size: 24px;
+  line-height: 28px;
+  color: #192229;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.moderation__nav__tabs {
+  margin-right: 30px;
+  li {
+    a {
+      border-right: none;
+    }
+    &:first-child {
+      a {
+        border-radius: 5px 0 0 5px;
+      }
+    }
+    &:last-child {
+      a {
+        border-right: 1px solid #D5DFE4;
+        border-radius: 0 5px 5px 0;
+      }
+    }
+  }
+  a {
+    display: block;
+    height: 36px;
+    line-height: 34px;
+    background: #FFFFFF;
+    border: 1px solid #D5DFE4;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    color: #000;
+
+    &.active {
+      background-color: #3897F0;
+      color: #fff;
+    }
+    &:hover {
+      background-color: #3897F0;
+      color: #fff;
+    }
+  }
+}
+
+.search__form {
+  position: relative;
+}
+
+.search__form {
+  position: relative;
+}
+
+.input {
+  background-color: #fff !important;
+  border: 1px solid #D5DFE4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 14px;
+  color: #000 !important;
+}
+
+.input__search {
+  width: 242px;
+  height: 36px;
+  padding-right: 36px;
+}
+
+.submit__search {
+  background: #FFFFFF;
+  border: 1px solid #D5DFE4;
+  box-sizing: border-box;
+  border-radius: 0px 5px 5px 0px;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  top: 0;
+  right: -4px;
+  background-image: url(../../img/icons/loup.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: 14px;
+  background-size: 14px;
+  cursor: pointer;
+}

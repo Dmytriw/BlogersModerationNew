@@ -1,0 +1,22 @@
+{
+  "name": "project",
+  "description": "The Progect in Building",
+  "main": "index.js",
+  "authors": [
+    "WebLine"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "normalize-css": "normalize.css#^5.0.0"
+  }
+}
